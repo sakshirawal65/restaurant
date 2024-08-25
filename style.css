@@ -1,0 +1,275 @@
+*
+{
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+/* *:hover
+{
+    color: #d8a853;
+} */
+.background
+{
+    background-image: url(https://images.pexels.com/photos/1907227/pexels-photo-1907227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+     background-size: cover;
+     background-clip:border-box;
+     background-position-x:-0px ;
+     background-repeat: no-repeat;
+    height:120vh;
+}
+.none-back{
+    background-color: none;
+}
+.image-back
+{
+    background-size: cover;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/321/570/497/black-minimalistic-flowers-yellow-flower-petals-black-background-1920x1200-nature-flowers-hd-art-wallpaper-preview.jpg);
+    background-clip: border-box;
+    background-repeat: no-repeat;
+
+}
+.black
+{
+    background-color: black;
+}
+.font-white
+{
+    color: white;
+    font-weight: 400;
+}
+.font-family
+{
+    font-family:Modern No.20;
+}
+.font-size-big
+{
+    font-size: 20px;
+}
+.f-color
+{
+    color:#cda45e;
+}
+.letter-space
+{
+    letter-spacing: 2px;
+}
+.font-family-2
+{
+    font-family: Bell MT;
+}
+.grey-font{
+    color: grey;
+}
+.fill:hover
+{
+     background-color:#cda45e;
+    /* font-weight: 700; */
+    border: 2px white solid;
+    color: white;
+}
+.fill1:hover ul li h4
+{
+    
+    color: white;
+}
+.layout
+{
+    background-image: url(https://img.freepik.com/free-vector/gradient-golden-linear-background_23-2148962072.jpg);
+    background-size: cover;
+}
+.nav-black
+{
+    background-color:rgb(15, 15, 15);
+    filter: opacity(0.8);
+}
+.sticky
+{
+    position: sticky;
+    top: 5px;
+}
+.top
+{
+    top: 50px;
+}
+.dropdown:hover .drop
+{
+    display: block;
+}
+.sa
+{
+    display: none;
+}
+.font
+{
+    font-family:Elephant; 
+}
+
+.imge:hover
+{
+    transform: scale(1.03);
+    transition: all  1s;
+}
+.padding
+{
+    padding: 80px 0px;
+}
+.img:hover::before
+{
+    left: 10px;
+    top: 60px;
+}
+.img::before
+{
+    width: 60px;
+    height: 60px;
+    /* background-color: red; */
+    z-index: 1;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    border-left: 4px #cda45e solid;
+    border-top: 4px #cda45e solid;
+    content: "";
+    transition: 0.5s;
+}
+.img:hover::after
+{
+    right: 10px;
+    bottom: 10px;
+}
+.img::after
+{
+    width: 60px;
+    height: 60px;
+    /* background-color: red; */
+    z-index: 2;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    border-right: 4px #cda45e solid;
+    border-bottom: 4px #cda45e solid;
+    content: "";
+    transition: 0.5s;
+}
+.grey-back
+{
+    background-color:#3d362a;
+}
+.page:hover{
+    color:#cda45e;
+}
+.book{
+    background-color: #cda45e;
+    border:4px #cda45e solid;
+}
+.z-indx{
+    z-index: 2;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #cda45e !important;
+}
+/* Base Styles */
+.container {
+    padding: 15px;
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Mobile Specific Styles */
+@media (max-width: 767px) {
+    .d-flex {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .carousel-item .row {
+        flex-direction: column;
+    }
+
+    .carousel-item .col-md-6 {
+        width: 100%;
+    }
+
+    .carousel-item .px-md-4 {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .carousel-indicators {
+        bottom: -20px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .secondary {
+        font-size: 14px;
+    }
+
+    .f-color {
+        font-size: 14px;
+    }
+
+    .font-white {
+        font-size: 12px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 40px;
+    }
+}
+
+
+.book-btn {
+    background-color: #333; /* Dark background for button */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    font-size: 18px; /* Larger font size */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.book-btn:hover {
+    background-color: #555; /* Lighter background on hover */
+}
+
